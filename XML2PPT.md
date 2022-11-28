@@ -1178,6 +1178,8 @@ echo "</note>";
 ### 从数据库生成 XML
 XML 可在不安装任何 XML 软件的情况下从数据库生成。
 如需从服务器生成 XML 数据库响应，只需简单地编写以下代码，并把它在 Web 服务器上保存为 ASP 文件：
+
+---
 ```jsp
 <%
 response.ContentType = "text/xml"
